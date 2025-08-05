@@ -12,7 +12,7 @@ export default function Index() {
      </div>
      <div className="shop">
         <div className="mt-7">
-          <h1 className="text-5xl text-[#FF7B06] font-bold text-center center-text">Our <span className="underline">Menu</span> </h1>
+          <h1 className="text-6xl text-[#FF7B06] font-bold text-center center-text">Our <span className="underline underline-offset-10">Menu</span> </h1>
         </div>
         <div>
           <div className="flex flex-wrap justify-center items-center gap-10 mt-5">
