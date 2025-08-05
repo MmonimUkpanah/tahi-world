@@ -1,4 +1,4 @@
-import { useState } from "react"
+
 import logo from "../assets/logo.svg"
 import cart from "../assets/cart.svg"
 export default function Navbar() {
