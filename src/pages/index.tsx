@@ -17,7 +17,7 @@ export default function Index() {
         <div>
           <div className="flex flex-wrap justify-center items-center gap-10 mt-5">
             <span className="text-2xl text-[#1F1E1E] shop-header">PARFAIT</span>
-            <span className="text-2xl text-[#1F1E1E] shop-header">YOGURT</span>
+            <span className="text-2xl text-[#1F1E1E] shop-header">YOGHURT</span>
             <span className="text-2xl text-[#1F1E1E] shop-header">CAKE</span>
             <span className="text-2xl text-[#1F1E1E] shop-header">SANDWICH</span>
             <span className="text-2xl text-[#1F1E1E] shop-header">JUICES</span>
@@ -59,7 +59,74 @@ export default function Index() {
               </div>
             </div>
           </div>
-          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-3 lg:mx-[100px] gap-10 ">
+            <div>
+              <div>
+                <img src={cup} alt="" className="w-full mt-10"/>
+              </div>
+              <div className="bg-[#FFF1DE] px-2 py-3 mt-[-5px] shop-header shadow-md">
+                <p>Parfait &#8358;2500</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <img src={cup} alt="" className="w-full mt-10"/>
+              </div>
+              <div className="bg-[#FFF1DE] px-2 py-3 mt-[-5px] shop-header shadow-md">
+                <p>Parfait &#8358;2500</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <img src={cup} alt="" className="w-full mt-10"/>
+              </div>
+              <div className="bg-[#FFF1DE] px-2 py-3 mt-[-5px] shop-header shadow-md">
+                <p>Parfait &#8358;2500</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <img src={cup} alt="" className="w-full mt-10"/>
+              </div>
+              <div className="bg-[#FFF1DE] px-2 py-3 mt-[-5px] shop-header shadow-md">
+                <p>Parfait &#8358;2500</p>
+              </div>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-3 lg:mx-[100px] gap-10 ">
+            <div>
+              <div>
+                <img src={cup} alt="" className="w-full mt-10"/>
+              </div>
+              <div className="bg-[#FFF1DE] px-2 py-3 mt-[-5px] shop-header shadow-md">
+                <p>Parfait &#8358;2500</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <img src={cup} alt="" className="w-full mt-10"/>
+              </div>
+              <div className="bg-[#FFF1DE] px-2 py-3 mt-[-5px] shop-header shadow-md">
+                <p>Parfait &#8358;2500</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <img src={cup} alt="" className="w-full mt-10"/>
+              </div>
+              <div className="bg-[#FFF1DE] px-2 py-3 mt-[-5px] shop-header shadow-md">
+                <p>Parfait &#8358;2500</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <img src={cup} alt="" className="w-full mt-10"/>
+              </div>
+              <div className="bg-[#FFF1DE] px-2 py-3 mt-[-5px] shop-header shadow-md">
+                <p>Parfait &#8358;2500</p>
+              </div>
+            </div>
+          </div>
         </div>
      </div>
     </div>
