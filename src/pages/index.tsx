@@ -1,5 +1,5 @@
  import Navbar from "@/components/navbar";
-import hero from "@/assets/hero.svg";
+import hero from "@/assets/HERO.png";
 import cup from "@/assets/cup.svg";
 export default function Index() {
   return <div>
@@ -7,6 +7,7 @@ export default function Index() {
       <div className="">
         <Navbar />
       </div>
+      <div className="h-10"></div>
      <div className="hero-section">
         <img src={hero} alt="" className=" w-full"/>
      </div>
