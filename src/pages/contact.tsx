@@ -1,18 +1,14 @@
- import Navbar from "@/components/navbar";
-import hero from "@/assets/HERO.png";
+import Navbar from "@/components/navbar";
 import cup from "@/assets/cup.svg";
 import Footer from "@/components/footer";
-export default function Index() {
+export default function Shop() {
   return <div>
     <div className="">
       <div className="">
         <Navbar />
       </div>
-     <div className="hero-section">
-        <img src={hero} alt="" className="mt-[6rem] w-full"/>
-     </div>
      <div className="shop">
-        <div className="mt-7">
+        <div className="mt-[7rem]">
           <h1 className="lg:text-6xl text-3xl text-[#FF7B06] font-bold text-center center-text">Our <span className="underline underline-offset-10">Menu</span> </h1>
         </div>
         <div>

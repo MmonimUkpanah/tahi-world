@@ -48,16 +48,17 @@ export default function Navbar() {
                 Home
               </a>
             </li>
+             <li>
+              <a href="/shop" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">
+                Shop
+              </a>
+            </li>
             <li>
               <a href="#" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">
                 About
               </a>
             </li>
-            <li>
-              <a href="#" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">
-                Services
-              </a>
-            </li>
+           
             <li>
               <a href="#" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">
                 Contact
