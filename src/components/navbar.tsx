@@ -54,13 +54,13 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">
+              <a href="/about" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">
                 About
               </a>
             </li>
            
             <li>
-              <a href="#" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">
+              <a href="/contact" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">
                 Contact
               </a>
             </li>
