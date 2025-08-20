@@ -1,7 +1,7 @@
 
 import logo from "../assets/logo.svg"
 import cart from "../assets/cart.svg"
- import { Link } from 'react-router-dom';
+ import { NavLink } from 'react-router-dom';
 import { useState } from "react";
 export default function Navbar() {
  const [isOpen, setIsOpen] = useState(false);
@@ -45,17 +45,53 @@ export default function Navbar() {
         >
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
             <li>
-             <Link to="/" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">Home</Link>
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive
+                    ? "block py-2 px-3 text-black rounded-sm md:p-0"
+                    : "block py-2 px-3 text-[#cc6205] hover:text-black rounded-sm md:p-0"
+                }
+              >
+                Home
+              </NavLink>
             </li>
              <li>
-              <Link to="/shop" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">Shop</Link>
+              <NavLink
+                to="/Shop"
+                className={({ isActive }) =>
+                  isActive
+                    ? "block py-2 px-3 text-black rounded-sm md:p-0"
+                    : "block py-2 px-3 text-[#cc6205] hover:text-black rounded-sm md:p-0"
+                }
+              >
+                Shop
+              </NavLink>
             </li>
             <li>
-              <Link to="/about" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">About</Link>
+              <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                  isActive
+                    ? "block py-2 px-3 text-black rounded-sm md:p-0"
+                    : "block py-2 px-3 text-[#cc6205] hover:text-black rounded-sm md:p-0"
+                }
+              >
+                About
+              </NavLink>
             </li>
            
             <li>
-              <Link to="/contact" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">Contact</Link>
+              <NavLink
+                to="/Contact"
+                className={({ isActive }) =>
+                  isActive
+                    ? "block py-2 px-3 text-black rounded-sm md:p-0"
+                    : "block py-2 px-3 text-[#cc6205] hover:text-black rounded-sm md:p-0"
+                }
+              >
+                Contact
+              </NavLink>
             </li>
             <li className="lg:hidden">
               <a href="#" className="block text-[#cc6205] py-2 px-3 rounded-sm md:p-0">

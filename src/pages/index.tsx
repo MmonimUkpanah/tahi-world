@@ -1,6 +1,7 @@
  import Navbar from "@/components/navbar";
 import hero from "@/assets/HERO.png";
 import cup from "@/assets/cup.svg";
+import { Link } from "react-router-dom";
 import Footer from "@/components/footer";
 export default function Index() {
   return <div>
@@ -9,7 +10,7 @@ export default function Index() {
         <Navbar />
       </div>
      <div className="hero-section">
-        <img src={hero} alt="" className="mt-[6rem] w-full"/>
+        <Link to='/shop'><img src={hero} alt="" className="mt-[6rem] w-full"/></Link>
      </div>
      <div className="shop">
         <div className="mt-7">
