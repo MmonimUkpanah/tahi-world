@@ -1,6 +1,7 @@
 
 import logo from "../assets/logo.svg"
 import cart from "../assets/cart.svg"
+ import { Link } from 'react-router-dom';
 import { useState } from "react";
 export default function Navbar() {
  const [isOpen, setIsOpen] = useState(false);
@@ -44,25 +45,17 @@ export default function Navbar() {
         >
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
             <li>
-              <a href="#" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">
-                Home
-              </a>
+             <Link to="/" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">Home</Link>
             </li>
              <li>
-              <a href="/shop" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">
-                Shop
-              </a>
+              <Link to="/shop" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">Shop</Link>
             </li>
             <li>
-              <a href="/about" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">
-                About
-              </a>
+              <Link to="/about" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">About</Link>
             </li>
            
             <li>
-              <a href="/contact" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">
-                Contact
-              </a>
+              <Link to="/contact" className="block py-2 px-3 text-[#cc6205] rounded-sm md:p-0">Contact</Link>
             </li>
             <li className="lg:hidden">
               <a href="#" className="block text-[#cc6205] py-2 px-3 rounded-sm md:p-0">
