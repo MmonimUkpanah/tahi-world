@@ -9,7 +9,7 @@ export default function Shop() {
       </div>
      <div className="shop">
         <div className="mt-[7rem]">
-          <h1 className="lg:text-6xl text-3xl text-[#FF7B06] font-bold text-center center-text">Our <span className="underline underline-offset-10">Menu</span> </h1>
+          <h1 className="lg:text-6xl text-3xl text-[#d9843b] font-bold text-center center-text">Our <span className="underline underline-offset-10">Menu</span> </h1>
         </div>
         <div>
           <div className="flex flex-wrap justify-center items-center gap-10 mt-5">

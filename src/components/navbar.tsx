@@ -50,7 +50,7 @@ export default function Navbar() {
                 className={({ isActive }) =>
                   isActive
                     ? "block py-2 px-3 text-black rounded-sm md:p-0"
-                    : "block py-2 px-3 text-[#cc6205] hover:text-black rounded-sm md:p-0"
+                    : "block py-2 px-3 text-[#d9843b] hover:text-black rounded-sm md:p-0"
                 }
               >
                 Home
@@ -62,7 +62,7 @@ export default function Navbar() {
                 className={({ isActive }) =>
                   isActive
                     ? "block py-2 px-3 text-black rounded-sm md:p-0"
-                    : "block py-2 px-3 text-[#cc6205] hover:text-black rounded-sm md:p-0"
+                    : "block py-2 px-3 text-[#d9843b] hover:text-black rounded-sm md:p-0"
                 }
               >
                 Shop
@@ -74,7 +74,7 @@ export default function Navbar() {
                 className={({ isActive }) =>
                   isActive
                     ? "block py-2 px-3 text-black rounded-sm md:p-0"
-                    : "block py-2 px-3 text-[#cc6205] hover:text-black rounded-sm md:p-0"
+                    : "block py-2 px-3 text-[#d9843b] hover:text-black rounded-sm md:p-0"
                 }
               >
                 About
@@ -87,14 +87,14 @@ export default function Navbar() {
                 className={({ isActive }) =>
                   isActive
                     ? "block py-2 px-3 text-black rounded-sm md:p-0"
-                    : "block py-2 px-3 text-[#cc6205] hover:text-black rounded-sm md:p-0"
+                    : "block py-2 px-3 text-[#d9843b] hover:text-black rounded-sm md:p-0"
                 }
               >
                 Contact
               </NavLink>
             </li>
             <li className="lg:hidden">
-              <a href="#" className="block text-[#cc6205] py-2 px-3 rounded-sm md:p-0">
+              <a href="#" className="block text-[#d9843b] py-2 px-3 rounded-sm md:p-0">
                 <img src={cart} alt="cart" className="h-[2rem] md:mt-[-0.2rem]" />
               </a>
             </li>
